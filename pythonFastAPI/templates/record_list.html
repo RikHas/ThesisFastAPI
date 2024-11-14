@@ -13,7 +13,7 @@
             <h3>{{ record.title }}</h3>
             <p>{{ record.created_at.strftime('%d-%m-%Y') }}</p>
             <p>{{ record.description }}</p>
-            <a href="/delete/{{ record.id }}">Удолить</a>
+            <a href="/delete/{{ record.id }}">Удалить</a>
         </li>
         {% endfor %}
     </ul>
